@@ -17,8 +17,10 @@ using Microsoft.Quantum.Simulation.Core;
 [assembly: SpecializationDeclaration("{\"Kind\":{\"Case\":\"QsBody\"},\"TypeArguments\":{\"Case\":\"Null\"},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}},\"Parent\":{\"Namespace\":\"ExploringSuperposition\",\"Name\":\"GenerateRandomBit\"},\"Attributes\":[],\"SourceFile\":\"C:\\\\Users\\\\gargp\\\\OneDrive\\\\Documents\\\\Github\\\\GettingStartedWithQuantum\\\\ExploringSuperposition\\\\Program.qs\",\"Position\":{\"Item1\":14,\"Item2\":4},\"HeaderRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":28}},\"Documentation\":[]}")]
 [assembly: CallableDeclaration("{\"Kind\":{\"Case\":\"Operation\"},\"QualifiedName\":{\"Namespace\":\"ExploringSuperposition\",\"Name\":\"GenerateSpecificState\"},\"Attributes\":[],\"Modifiers\":{\"Access\":{\"Case\":\"DefaultAccess\"}},\"SourceFile\":\"C:\\\\Users\\\\gargp\\\\OneDrive\\\\Documents\\\\Github\\\\GettingStartedWithQuantum\\\\ExploringSuperposition\\\\Program.qs\",\"Position\":{\"Item1\":39,\"Item2\":4},\"SymbolRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":32}},\"ArgumentTuple\":{\"Case\":\"QsTuple\",\"Fields\":[[{\"Case\":\"QsTupleItem\",\"Fields\":[{\"VariableName\":{\"Case\":\"ValidName\",\"Fields\":[\"alpha\"]},\"Type\":{\"Case\":\"Double\"},\"InferredInformation\":{\"IsMutable\":false,\"HasLocalQuantumDependency\":false},\"Position\":{\"Case\":\"Null\"},\"Range\":{\"Item1\":{\"Line\":1,\"Column\":33},\"Item2\":{\"Line\":1,\"Column\":38}}}]}]]},\"Signature\":{\"TypeParameters\":[],\"ArgumentType\":{\"Case\":\"Double\"},\"ReturnType\":{\"Case\":\"Result\"},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}}},\"Documentation\":[]}")]
 [assembly: SpecializationDeclaration("{\"Kind\":{\"Case\":\"QsBody\"},\"TypeArguments\":{\"Case\":\"Null\"},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}},\"Parent\":{\"Namespace\":\"ExploringSuperposition\",\"Name\":\"GenerateSpecificState\"},\"Attributes\":[],\"SourceFile\":\"C:\\\\Users\\\\gargp\\\\OneDrive\\\\Documents\\\\Github\\\\GettingStartedWithQuantum\\\\ExploringSuperposition\\\\Program.qs\",\"Position\":{\"Item1\":39,\"Item2\":4},\"HeaderRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":32}},\"Documentation\":[]}")]
-[assembly: CallableDeclaration("{\"Kind\":{\"Case\":\"Operation\"},\"QualifiedName\":{\"Namespace\":\"ExploringSuperposition\",\"Name\":\"GenerateRandomNumber\"},\"Attributes\":[{\"TypeId\":{\"Case\":\"Value\",\"Fields\":[{\"Namespace\":\"Microsoft.Quantum.Core\",\"Name\":\"EntryPoint\",\"Range\":{\"Case\":\"Value\",\"Fields\":[{\"Item1\":{\"Line\":1,\"Column\":2},\"Item2\":{\"Line\":1,\"Column\":12}}]}}]},\"Argument\":{\"Item1\":{\"Case\":\"UnitValue\"},\"Item2\":[],\"Item3\":{\"Case\":\"UnitType\"},\"Item4\":{\"IsMutable\":false,\"HasLocalQuantumDependency\":false},\"Item5\":{\"Case\":\"Value\",\"Fields\":[{\"Item1\":{\"Line\":1,\"Column\":12},\"Item2\":{\"Line\":1,\"Column\":14}}]}},\"Offset\":{\"Item1\":51,\"Item2\":4},\"Comments\":{\"OpeningComments\":[],\"ClosingComments\":[]}}],\"Modifiers\":{\"Access\":{\"Case\":\"DefaultAccess\"}},\"SourceFile\":\"C:\\\\Users\\\\gargp\\\\OneDrive\\\\Documents\\\\Github\\\\GettingStartedWithQuantum\\\\ExploringSuperposition\\\\Program.qs\",\"Position\":{\"Item1\":52,\"Item2\":4},\"SymbolRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":31}},\"ArgumentTuple\":{\"Case\":\"QsTuple\",\"Fields\":[[]]},\"Signature\":{\"TypeParameters\":[],\"ArgumentType\":{\"Case\":\"UnitType\"},\"ReturnType\":{\"Case\":\"Int\"},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}}},\"Documentation\":[]}")]
-[assembly: SpecializationDeclaration("{\"Kind\":{\"Case\":\"QsBody\"},\"TypeArguments\":{\"Case\":\"Null\"},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}},\"Parent\":{\"Namespace\":\"ExploringSuperposition\",\"Name\":\"GenerateRandomNumber\"},\"Attributes\":[],\"SourceFile\":\"C:\\\\Users\\\\gargp\\\\OneDrive\\\\Documents\\\\Github\\\\GettingStartedWithQuantum\\\\ExploringSuperposition\\\\Program.qs\",\"Position\":{\"Item1\":52,\"Item2\":4},\"HeaderRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":31}},\"Documentation\":[]}")]
+[assembly: CallableDeclaration("{\"Kind\":{\"Case\":\"Operation\"},\"QualifiedName\":{\"Namespace\":\"ExploringSuperposition\",\"Name\":\"GenerateRandomNumber\"},\"Attributes\":[],\"Modifiers\":{\"Access\":{\"Case\":\"DefaultAccess\"}},\"SourceFile\":\"C:\\\\Users\\\\gargp\\\\OneDrive\\\\Documents\\\\Github\\\\GettingStartedWithQuantum\\\\ExploringSuperposition\\\\Program.qs\",\"Position\":{\"Item1\":54,\"Item2\":4},\"SymbolRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":31}},\"ArgumentTuple\":{\"Case\":\"QsTuple\",\"Fields\":[[]]},\"Signature\":{\"TypeParameters\":[],\"ArgumentType\":{\"Case\":\"UnitType\"},\"ReturnType\":{\"Case\":\"Int\"},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}}},\"Documentation\":[]}")]
+[assembly: SpecializationDeclaration("{\"Kind\":{\"Case\":\"QsBody\"},\"TypeArguments\":{\"Case\":\"Null\"},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}},\"Parent\":{\"Namespace\":\"ExploringSuperposition\",\"Name\":\"GenerateRandomNumber\"},\"Attributes\":[],\"SourceFile\":\"C:\\\\Users\\\\gargp\\\\OneDrive\\\\Documents\\\\Github\\\\GettingStartedWithQuantum\\\\ExploringSuperposition\\\\Program.qs\",\"Position\":{\"Item1\":54,\"Item2\":4},\"HeaderRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":31}},\"Documentation\":[]}")]
+[assembly: CallableDeclaration("{\"Kind\":{\"Case\":\"Operation\"},\"QualifiedName\":{\"Namespace\":\"ExploringSuperposition\",\"Name\":\"GenerateUniformState\"},\"Attributes\":[{\"TypeId\":{\"Case\":\"Value\",\"Fields\":[{\"Namespace\":\"Microsoft.Quantum.Core\",\"Name\":\"EntryPoint\",\"Range\":{\"Case\":\"Value\",\"Fields\":[{\"Item1\":{\"Line\":1,\"Column\":2},\"Item2\":{\"Line\":1,\"Column\":12}}]}}]},\"Argument\":{\"Item1\":{\"Case\":\"UnitValue\"},\"Item2\":[],\"Item3\":{\"Case\":\"UnitType\"},\"Item4\":{\"IsMutable\":false,\"HasLocalQuantumDependency\":false},\"Item5\":{\"Case\":\"Value\",\"Fields\":[{\"Item1\":{\"Line\":1,\"Column\":12},\"Item2\":{\"Line\":1,\"Column\":14}}]}},\"Offset\":{\"Item1\":66,\"Item2\":4},\"Comments\":{\"OpeningComments\":[],\"ClosingComments\":[]}}],\"Modifiers\":{\"Access\":{\"Case\":\"DefaultAccess\"}},\"SourceFile\":\"C:\\\\Users\\\\gargp\\\\OneDrive\\\\Documents\\\\Github\\\\GettingStartedWithQuantum\\\\ExploringSuperposition\\\\Program.qs\",\"Position\":{\"Item1\":67,\"Item2\":4},\"SymbolRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":31}},\"ArgumentTuple\":{\"Case\":\"QsTuple\",\"Fields\":[[]]},\"Signature\":{\"TypeParameters\":[],\"ArgumentType\":{\"Case\":\"UnitType\"},\"ReturnType\":{\"Case\":\"Int\"},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}}},\"Documentation\":[]}")]
+[assembly: SpecializationDeclaration("{\"Kind\":{\"Case\":\"QsBody\"},\"TypeArguments\":{\"Case\":\"Null\"},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}},\"Parent\":{\"Namespace\":\"ExploringSuperposition\",\"Name\":\"GenerateUniformState\"},\"Attributes\":[],\"SourceFile\":\"C:\\\\Users\\\\gargp\\\\OneDrive\\\\Documents\\\\Github\\\\GettingStartedWithQuantum\\\\ExploringSuperposition\\\\Program.qs\",\"Position\":{\"Item1\":67,\"Item2\":4},\"HeaderRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":31}},\"Documentation\":[]}")]
 #line hidden
 namespace ExploringSuperposition
 {
@@ -154,7 +156,7 @@ namespace ExploringSuperposition
         }
     }
 
-    [SourceLocation("C:\\Users\\gargp\\OneDrive\\Documents\\Github\\GettingStartedWithQuantum\\ExploringSuperposition\\Program.qs", OperationFunctor.Body, 40, 53)]
+    [SourceLocation("C:\\Users\\gargp\\OneDrive\\Documents\\Github\\GettingStartedWithQuantum\\ExploringSuperposition\\Program.qs", OperationFunctor.Body, 40, 55)]
     public partial class GenerateSpecificState : Operation<Double, Result>, ICallable
     {
         public GenerateSpecificState(IOperationFactory m) : base(m)
@@ -276,7 +278,7 @@ namespace ExploringSuperposition
         }
     }
 
-    [SourceLocation("C:\\Users\\gargp\\OneDrive\\Documents\\Github\\GettingStartedWithQuantum\\ExploringSuperposition\\Program.qs", OperationFunctor.Body, 53, -1)]
+    [SourceLocation("C:\\Users\\gargp\\OneDrive\\Documents\\Github\\GettingStartedWithQuantum\\ExploringSuperposition\\Program.qs", OperationFunctor.Body, 55, 68)]
     public partial class GenerateRandomNumber : Operation<QVoid, Int64>, ICallable
     {
         public GenerateRandomNumber(IOperationFactory m) : base(m)
@@ -285,7 +287,6 @@ namespace ExploringSuperposition
 
         String ICallable.Name => "GenerateRandomNumber";
         String ICallable.FullName => "ExploringSuperposition.GenerateRandomNumber";
-        public static EntryPointInfo<QVoid, Int64> Info => new EntryPointInfo<QVoid, Int64>(typeof(GenerateRandomNumber));
         protected Allocate Allocate__
         {
             get;
@@ -350,25 +351,25 @@ namespace ExploringSuperposition
         {
 #line hidden
             {
-#line 54 "C:\\Users\\gargp\\OneDrive\\Documents\\Github\\GettingStartedWithQuantum\\ExploringSuperposition\\Program.qs"
+#line 56 "C:\\Users\\gargp\\OneDrive\\Documents\\Github\\GettingStartedWithQuantum\\ExploringSuperposition\\Program.qs"
                 var qubits = Allocate__.Apply(3L);
 #line hidden
                 bool __arg1__ = true;
                 try
                 {
-#line 55 "C:\\Users\\gargp\\OneDrive\\Documents\\Github\\GettingStartedWithQuantum\\ExploringSuperposition\\Program.qs"
-                    Microsoft__Quantum__Canon__ApplyToEach.Apply((Microsoft__Quantum__Intrinsic__H, qubits));
-#line 56 "C:\\Users\\gargp\\OneDrive\\Documents\\Github\\GettingStartedWithQuantum\\ExploringSuperposition\\Program.qs"
-                    Message__.Apply("The qubit register in a uniform superposition:");
 #line 57 "C:\\Users\\gargp\\OneDrive\\Documents\\Github\\GettingStartedWithQuantum\\ExploringSuperposition\\Program.qs"
-                    Microsoft__Quantum__Diagnostics__DumpMachine.Apply(QVoid.Instance);
+                    Microsoft__Quantum__Canon__ApplyToEach.Apply((Microsoft__Quantum__Intrinsic__H, qubits));
 #line 58 "C:\\Users\\gargp\\OneDrive\\Documents\\Github\\GettingStartedWithQuantum\\ExploringSuperposition\\Program.qs"
-                    var result = (IQArray<Result>)Microsoft__Quantum__Arrays__ForEach.Apply<IQArray<Result>>((M__, qubits));
+                    Message__.Apply("The qubit register in a uniform superposition:");
 #line 59 "C:\\Users\\gargp\\OneDrive\\Documents\\Github\\GettingStartedWithQuantum\\ExploringSuperposition\\Program.qs"
-                    Message__.Apply("Measuring the qubits collapses the superposition to a basis state.");
-#line 60 "C:\\Users\\gargp\\OneDrive\\Documents\\Github\\GettingStartedWithQuantum\\ExploringSuperposition\\Program.qs"
                     Microsoft__Quantum__Diagnostics__DumpMachine.Apply(QVoid.Instance);
+#line 60 "C:\\Users\\gargp\\OneDrive\\Documents\\Github\\GettingStartedWithQuantum\\ExploringSuperposition\\Program.qs"
+                    var result = (IQArray<Result>)Microsoft__Quantum__Arrays__ForEach.Apply<IQArray<Result>>((M__, qubits));
 #line 61 "C:\\Users\\gargp\\OneDrive\\Documents\\Github\\GettingStartedWithQuantum\\ExploringSuperposition\\Program.qs"
+                    Message__.Apply("Measuring the qubits collapses the superposition to a basis state.");
+#line 62 "C:\\Users\\gargp\\OneDrive\\Documents\\Github\\GettingStartedWithQuantum\\ExploringSuperposition\\Program.qs"
+                    Microsoft__Quantum__Diagnostics__DumpMachine.Apply(QVoid.Instance);
+#line 63 "C:\\Users\\gargp\\OneDrive\\Documents\\Github\\GettingStartedWithQuantum\\ExploringSuperposition\\Program.qs"
                     return Microsoft__Quantum__Convert__BoolArrayAsInt.Apply(Microsoft__Quantum__Convert__ResultArrayAsBoolArray.Apply(result));
                 }
 #line hidden
@@ -409,6 +410,147 @@ namespace ExploringSuperposition
         public static System.Threading.Tasks.Task<Int64> Run(IOperationFactory __m__)
         {
             return __m__.Run<GenerateRandomNumber, QVoid, Int64>(QVoid.Instance);
+        }
+    }
+
+    [SourceLocation("C:\\Users\\gargp\\OneDrive\\Documents\\Github\\GettingStartedWithQuantum\\ExploringSuperposition\\Program.qs", OperationFunctor.Body, 68, -1)]
+    public partial class GenerateUniformState : Operation<QVoid, Int64>, ICallable
+    {
+        public GenerateUniformState(IOperationFactory m) : base(m)
+        {
+        }
+
+        String ICallable.Name => "GenerateUniformState";
+        String ICallable.FullName => "ExploringSuperposition.GenerateUniformState";
+        public static EntryPointInfo<QVoid, Int64> Info => new EntryPointInfo<QVoid, Int64>(typeof(GenerateUniformState));
+        protected Allocate Allocate__
+        {
+            get;
+            set;
+        }
+
+        protected Release Release__
+        {
+            get;
+            set;
+        }
+
+        protected ICallable Microsoft__Quantum__Canon__ApplyToEach
+        {
+            get;
+            set;
+        }
+
+        protected IUnitary<Qubit> Microsoft__Quantum__Intrinsic__H
+        {
+            get;
+            set;
+        }
+
+        protected ICallable<String, QVoid> Message__
+        {
+            get;
+            set;
+        }
+
+        protected ICallable Microsoft__Quantum__Diagnostics__DumpMachine
+        {
+            get;
+            set;
+        }
+
+        protected ICallable<Qubit, Result> M__
+        {
+            get;
+            set;
+        }
+
+        protected ICallable<IQArray<Boolean>, Int64> Microsoft__Quantum__Convert__BoolArrayAsInt
+        {
+            get;
+            set;
+        }
+
+        protected ICallable<IQArray<Result>, IQArray<Boolean>> Microsoft__Quantum__Convert__ResultArrayAsBoolArray
+        {
+            get;
+            set;
+        }
+
+        public override Func<QVoid, Int64> __Body__ => (__in__) =>
+        {
+#line hidden
+            {
+#line 69 "C:\\Users\\gargp\\OneDrive\\Documents\\Github\\GettingStartedWithQuantum\\ExploringSuperposition\\Program.qs"
+                var qubits = Allocate__.Apply(3L);
+#line hidden
+                bool __arg1__ = true;
+                try
+                {
+#line 70 "C:\\Users\\gargp\\OneDrive\\Documents\\Github\\GettingStartedWithQuantum\\ExploringSuperposition\\Program.qs"
+                    Microsoft__Quantum__Canon__ApplyToEach.Apply((Microsoft__Quantum__Intrinsic__H, qubits));
+#line 71 "C:\\Users\\gargp\\OneDrive\\Documents\\Github\\GettingStartedWithQuantum\\ExploringSuperposition\\Program.qs"
+                    Message__.Apply("The qubit register in a uniform superposition:");
+#line 72 "C:\\Users\\gargp\\OneDrive\\Documents\\Github\\GettingStartedWithQuantum\\ExploringSuperposition\\Program.qs"
+                    Microsoft__Quantum__Diagnostics__DumpMachine.Apply(QVoid.Instance);
+#line 73 "C:\\Users\\gargp\\OneDrive\\Documents\\Github\\GettingStartedWithQuantum\\ExploringSuperposition\\Program.qs"
+                    var results = QArray<Result>.Create(0L);
+#line 74 "C:\\Users\\gargp\\OneDrive\\Documents\\Github\\GettingStartedWithQuantum\\ExploringSuperposition\\Program.qs"
+                    foreach (var q in qubits)
+#line hidden
+                    {
+#line 75 "C:\\Users\\gargp\\OneDrive\\Documents\\Github\\GettingStartedWithQuantum\\ExploringSuperposition\\Program.qs"
+                        Message__.Apply(" ");
+#line 76 "C:\\Users\\gargp\\OneDrive\\Documents\\Github\\GettingStartedWithQuantum\\ExploringSuperposition\\Program.qs"
+                        results = QArray<Result>.Add(results, new QArray<Result>(M__.Apply(q)));
+#line 77 "C:\\Users\\gargp\\OneDrive\\Documents\\Github\\GettingStartedWithQuantum\\ExploringSuperposition\\Program.qs"
+                        Microsoft__Quantum__Diagnostics__DumpMachine.Apply(QVoid.Instance);
+                    }
+
+#line 79 "C:\\Users\\gargp\\OneDrive\\Documents\\Github\\GettingStartedWithQuantum\\ExploringSuperposition\\Program.qs"
+                    Message__.Apply(" ");
+#line 80 "C:\\Users\\gargp\\OneDrive\\Documents\\Github\\GettingStartedWithQuantum\\ExploringSuperposition\\Program.qs"
+                    Message__.Apply("Your random number is: ");
+#line 81 "C:\\Users\\gargp\\OneDrive\\Documents\\Github\\GettingStartedWithQuantum\\ExploringSuperposition\\Program.qs"
+                    return Microsoft__Quantum__Convert__BoolArrayAsInt.Apply(Microsoft__Quantum__Convert__ResultArrayAsBoolArray.Apply(results?.Copy()));
+                }
+#line hidden
+                catch
+                {
+                    __arg1__ = false;
+                    throw;
+                }
+#line hidden
+                finally
+                {
+                    if (__arg1__)
+                    {
+#line hidden
+                        Release__.Apply(qubits);
+                    }
+                }
+            }
+        }
+
+        ;
+        public override void __Init__()
+        {
+            this.Allocate__ = this.__Factory__.Get<Allocate>(typeof(global::Microsoft.Quantum.Intrinsic.Allocate));
+            this.Release__ = this.__Factory__.Get<Release>(typeof(global::Microsoft.Quantum.Intrinsic.Release));
+            this.Microsoft__Quantum__Canon__ApplyToEach = this.__Factory__.Get<ICallable>(typeof(global::Microsoft.Quantum.Canon.ApplyToEach<>));
+            this.Microsoft__Quantum__Intrinsic__H = this.__Factory__.Get<IUnitary<Qubit>>(typeof(global::Microsoft.Quantum.Intrinsic.H));
+            this.Message__ = this.__Factory__.Get<ICallable<String, QVoid>>(typeof(global::Microsoft.Quantum.Intrinsic.Message));
+            this.Microsoft__Quantum__Diagnostics__DumpMachine = this.__Factory__.Get<ICallable>(typeof(global::Microsoft.Quantum.Diagnostics.DumpMachine<>));
+            this.M__ = this.__Factory__.Get<ICallable<Qubit, Result>>(typeof(global::Microsoft.Quantum.Intrinsic.M));
+            this.Microsoft__Quantum__Convert__BoolArrayAsInt = this.__Factory__.Get<ICallable<IQArray<Boolean>, Int64>>(typeof(global::Microsoft.Quantum.Convert.BoolArrayAsInt));
+            this.Microsoft__Quantum__Convert__ResultArrayAsBoolArray = this.__Factory__.Get<ICallable<IQArray<Result>, IQArray<Boolean>>>(typeof(global::Microsoft.Quantum.Convert.ResultArrayAsBoolArray));
+        }
+
+        public override IApplyData __DataIn__(QVoid data) => data;
+        public override IApplyData __DataOut__(Int64 data) => new QTuple<Int64>(data);
+        public static System.Threading.Tasks.Task<Int64> Run(IOperationFactory __m__)
+        {
+            return __m__.Run<GenerateUniformState, QVoid, Int64>(QVoid.Instance);
         }
     }
 }
