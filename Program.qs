@@ -4,6 +4,11 @@ namespace ExploringSuperposition {
     open Microsoft.Quantum.Diagnostics;
     open Microsoft.Quantum.Measurement;
     open Microsoft.Quantum.Math;
+    open Microsoft.Quantum.Arrays;
+    open Microsoft.Quantum.Convert;
+
+    // When running the program, make sure that you only have only Entry point. 
+    // Feel free to create a master entry point and call these operations below from there.
 
     // Part 1: Dump the simulated quantum machine state at initialization, superposition, measurement and reset states
     // @EntryPoint()
@@ -31,7 +36,7 @@ namespace ExploringSuperposition {
     // Part 2: Single qubit skewed probability superposition
     // Here alpha is the probability of the bit being in Zero state and (1 - alpha) is the probability of it being in One
     // This is achieved by using the operator Ry(2 * arcCos(sqrt(alpha))) on the qubit 
-    @EntryPoint()
+    // @EntryPoint()
     operation GenerateSpecificState(alpha : Double) : Result {
         using (q = Qubit()) {
             Ry(2.0 * ArcCos(Sqrt(alpha)), q);
@@ -41,6 +46,21 @@ namespace ExploringSuperposition {
             Message("");
             Message("Skewed random bit is : ");
             return M(q);
+        }
+    }
+
+    // Using multiple (3) qubits to generate a random number. Uniform probability exists for each bit, so there
+    // is equal probability of getting numbers from 0 to 7
+    // @EntryPoint()
+    operation GenerateRandomNumber() : Int {
+        using (qubits = Qubit[3]) {
+            ApplyToEach(H, qubits);
+            Message("The qubit register in a uniform superposition:");
+            DumpMachine();
+            let result = ForEach(M, qubits);
+            Message("Measuring the qubits collapses the superposition to a basis state.");
+            DumpMachine();
+            return BoolArrayAsInt(ResultArrayAsBoolArray(result));
         }
     }
 }
